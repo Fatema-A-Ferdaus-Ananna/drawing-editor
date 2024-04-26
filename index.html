@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<title>Drawing Editor</title>
+
+</head>
+<body>
+    <nav>
+        <h2>Drawing Editor</h2>
+    </nav>
+    <div class="container">
+        <div class="left">
+            <canvas id="canvas" ></canvas>
+        </div>
+
+        <div class="right">
+
+            <p class="strokeWidth"></p>
+            color<input type="color" id="colorPicker">
+
+            <button id="increaseWidth">Increase Stroke Width</button>
+            <button id="decreaseWidth">Decrease Stroke Width</button>
+        
+            <button id="undoButton">Undo</button>
+            <button id="redoButton">Redo</button>
+            <button id="clearButton">Clear Canvas</button>
+        
+            <button id="saveButton">Save Drawing</button>
+        
+        </div>
+    </div>
+    <div class="foot">
+        <footer>fatema.a.ferdaus@gmail.com</footer>
+    </div>
+    
+   
+
+    <script src="canvas_script.js"></script>
+</body>
+</html>
